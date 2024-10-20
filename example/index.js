@@ -1,5 +1,13 @@
 "use strict";
 
-const jqueryEditable = require("../lib");
+const $ = require("jquery")
+$.fn.editable = require("../lib");
 
-console.log(jqueryEditable());
+$("span.editable-price").editable({
+    inputHTML: "<input type='number' min='0.01' step='0.01' />",
+    clickTarget: "parent",
+    onChange(val, oldVal) {
+        val = +val;
+        // ...
+    }
+});
