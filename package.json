@@ -18,7 +18,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Bloggify <support@bloggify.org> (https://bloggify.org)",
-  "homepage": "https://github.com/IonicaBizau/jquery-editable#readme",
+  "homepage": "https://github.com/Bloggify/jquery-editable#readme",
   "files": [
     "bin/",
     "app/",
@@ -38,9 +38,9 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/IonicaBizau/jquery-editable.git"
+    "url": "git+ssh://git@github.com/Bloggify/jquery-editable.git"
   },
   "bugs": {
-    "url": "https://github.com/IonicaBizau/jquery-editable/issues"
+    "url": "https://github.com/Bloggify/jquery-editable/issues"
   }
 }
